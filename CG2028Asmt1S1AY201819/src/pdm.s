@@ -30,8 +30,7 @@ loop:
 	BLT loop
 
 	@ Calculate PDm
-	MOV R11, #100
-	MUL R3, R11
+	MOVW R11, #10000
 	MUL R3, R11
 	SDIV R0, R3, R4
 
