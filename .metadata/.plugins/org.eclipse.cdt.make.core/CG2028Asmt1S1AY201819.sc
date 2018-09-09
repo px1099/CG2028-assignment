@@ -2,6 +2,9 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.exe.debug.1431205108;com.crt.advproject.config.exe.debug.1431205108.;com.crt.advproject.gcc.exe.debug.1391450168;com.crt.advproject.compiler.input.1376056955">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
@@ -322,6 +325,9 @@
 </instance>
 <instance id="com.crt.advproject.config.exe.debug.1431205108;com.crt.advproject.config.exe.debug.1431205108.;com.crt.advproject.gas.exe.debug.1340474069;com.crt.advproject.assembler.input.1935051759">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="d:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
 <includePath path="c:\labsoft\ee2024\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
