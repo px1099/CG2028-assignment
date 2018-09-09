@@ -8,6 +8,8 @@
 pdm:
 @ write the code for pdm(CM,M,index) here
 
+	.equ SCALING, 10000
+	
 	@ using a stack to store register states
 	PUSH {R3-R10}
 
@@ -27,7 +29,7 @@ loop:
 	BNE loop
 
 	@ Calculate PDm
-	MOVW R11, #10000
+	MOVW R11, SCALING
 	MUL R3, R11
 	SDIV R0, R3, R4
 
