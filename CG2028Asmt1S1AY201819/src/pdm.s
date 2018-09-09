@@ -22,9 +22,8 @@ pdm:
 	MOV R5, #0
 
 loop:
-	LDR R6, [R0]
-	ADD R4, R4, R6
-	ADD R0, R0, #4
+	LDR R6, [R0], #4
+	ADD R4, R6
 	ADD R5, #1
 	CMP R5, R1
 	BLT loop
