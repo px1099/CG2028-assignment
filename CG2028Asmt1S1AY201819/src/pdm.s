@@ -12,21 +12,19 @@ pdm:
 	PUSH {R3-R10}
 
 	@ Loading nmm into R3
-	LSL R2, R2 #2
+	LSL R2, R2, #2
 	MLA R0, R1, R2, R0
 	ADD R3, R0, R2
 	LDR R3, [R3]
 
 	@ Calculate sum of row
 	MOV R4, #0
-	MOV R5, #0
 
 loop:
-	LDR R6, [R0], #4
-	ADD R4, R6
-	ADD R5, #1
-	CMP R5, R1
-	BLT loop
+	LDR R2, [R0], #4
+	ADD R4, R2
+	SUBS R1, #1
+	BNE loop
 
 	@ Calculate PDm
 	MOVW R11, #10000
