@@ -14,7 +14,7 @@ pdm:
 	@ Loading nmm into R3
 	LSL R2, R2 #2
 	MLA R0, R1, R2, R0
-	ADD R3, R0, R10
+	ADD R3, R0, R2
 	LDR R3, [R3]
 
 	@ Calculate sum of row
