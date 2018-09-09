@@ -12,9 +12,8 @@ pdm:
 	PUSH {R3-R10}
 
 	@ Loading nmm into R3
-	MOV R9, #4
-	MUL R10, R9, R2
-	MLA R0, R1, R10, R0
+	LSL R2, R2 #2
+	MLA R0, R1, R2, R0
 	ADD R3, R0, R10
 	LDR R3, [R3]
 
