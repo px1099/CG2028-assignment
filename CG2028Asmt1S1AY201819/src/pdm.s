@@ -11,7 +11,7 @@ pdm:
 	.equ SCALING, 10000
 	
 	@ using a stack to store register states
-	PUSH {R3-R10}
+	PUSH {R3, R4}
 
 	@ Loading nmm into R3
 	LSL R2, R2, #2
@@ -29,12 +29,12 @@ loop:
 	BNE loop
 
 	@ Calculate PDm
-	MOVW R11, SCALING
-	MUL R3, R11
+	MOVW R1, SCALING
+	MUL R3, R1
 	SDIV R0, R3, R4
 
 	@ Restoring Stack
-	POP {R3-R10}
+	POP {R3, R4}
 
 	@ Return
 	BX	LR
