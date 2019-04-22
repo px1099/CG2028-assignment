@@ -1,6 +1,3 @@
-// Saif Uddin Mahmud 	[A0170896N]
-// Pham Quang Minh 		[A0170723L]
-
 #include "stdio.h"
 
 extern int pdm(int* base, int ncol, int index);

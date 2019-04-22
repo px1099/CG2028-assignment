@@ -1,6 +1,7 @@
 @ Saif Uddin Mahmud 	[A0170896N]
 @ Pham Quang Minh 		[A0170723L]
 
+
  	.syntax unified
  	.cpu cortex-m3
  	.thumb
